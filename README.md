@@ -19,9 +19,4 @@ and one external disturbance T amb (t) representing the ambient temperature:
 
 ![Image of Yaktocat](https://github.com/kofori00/Optimizing-Energy-Trade-/blob/master/image.png)
 
-optimize the energy trade of one of the tanks. To optimize
-the hourly energy trade over some horizon N , you need to minimize the cost of buying
-the input energy Q̇ in over that horizon while satisfying the requested heat demand.
-In this optimization setup, you need to also add a constraint that ensures that the
-system dynamics are validated throughout the horizon. This optimization problem can
-be defined as:
+
