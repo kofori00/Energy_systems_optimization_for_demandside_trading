@@ -32,12 +32,12 @@ model has to be of the form of:
 ![Image2](https://github.com/kofori00/Optimizing-Energy-Trade-/blob/master/Capture1.JPG
 )
 
-Then, we formulate the following quadratic optimization problem:
+We initially formulate the following quadratic optimization problem, without condering the cost of buying a unit of energy input:
 
 ![Image3](https://github.com/kofori00/Optimizing-Energy-Trade-/blob/master/Capture2.JPG
 )
 
-you are ready to optimize the energy trade of one of the tanks. To optimize
+After this initial optimization we are ready to optimize the energy trade of one of the tanks. To optimize
 the hourly energy trade over some horizon N, you need to minimize the cost of buying
 the input energy _Q
 in over that horizon while satisfying the requested heat demand.
@@ -48,7 +48,15 @@ be defined as:
 ![Image4](https://github.com/kofori00/Optimizing-Energy-Trade-/blob/master/Capture3.JPG
 )
 
-
+where \lamba_in
+k is the price of buying one unit of input heat at time step k, _Q
+in
+max the maximum
+input power, Tmin the minimum internal temperature to ensure the heat demand, and
+where T1, Tamb, _Q
+out
+k , and in
+k are typically given in advance.
 
 
 
