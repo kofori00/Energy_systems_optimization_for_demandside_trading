@@ -20,7 +20,9 @@ and one external disturbance T amb (t) representing the ambient temperature:
 ![Image5](https://github.com/kofori00/Optimizing-Energy-Trade-/blob/master/Capture4.JPG
 )
 
-The model can be discritized as using 
+The model can be discritized using 
+
+
 ![Image2](https://github.com/kofori00/Optimizing-Energy-Trade-/blob/master/Capture.JPG
 )
 
