@@ -17,6 +17,41 @@ can be modeled by one state T (t) representing the internal temperature in the t
 instant t, two controls Q̇ in (t) and Q̇ out (t) representing the input and output heat to the tank,
 and one external disturbance T amb (t) representing the ambient temperature:
 
-![Image of Yaktocat](https://github.com/kofori00/Optimizing-Energy-Trade-/blob/master/image.png)
+![Image5](https://github.com/kofori00/Optimizing-Energy-Trade-/blob/master/Capture4.JPG
+)
+
+The model can be discritized as using 
+![Image2](https://github.com/kofori00/Optimizing-Energy-Trade-/blob/master/Capture.JPG
+)
+
+where Tk represents the internal temperature in the tank at time step tk. The resulting
+model has to be of the form of:
+
+![Image2](https://github.com/kofori00/Optimizing-Energy-Trade-/blob/master/Capture1.JPG
+)
+
+Then, we formulate the following quadratic optimization problem:
+
+![Image3](https://github.com/kofori00/Optimizing-Energy-Trade-/blob/master/Capture2.JPG
+)
+
+you are ready to optimize the energy trade of one of the tanks. To optimize
+the hourly energy trade over some horizon N, you need to minimize the cost of buying
+the input energy _Q
+in over that horizon while satisfying the requested heat demand.
+In this optimization setup, you need to also add a constraint that ensures that the
+system dynamics are validated throughout the horizon. This optimization problem can
+be defined as:
+
+![Image4](https://github.com/kofori00/Optimizing-Energy-Trade-/blob/master/Capture3.JPG
+)
+
+
+
+
+
+
+
+
 
 
