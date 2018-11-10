@@ -1,4 +1,4 @@
-%Exercise 2.2 
+%Initial minimization 
 
 clc
 clear all
@@ -24,7 +24,7 @@ end
 end
 
 
-% Exercise 2.3
+% Energy Trade Minimization 
 clc
 clear all
 close all
