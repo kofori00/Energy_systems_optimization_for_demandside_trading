@@ -59,7 +59,7 @@ k , and in
 k are typically given in advance.
 
 
-
+See the added pdf for full solution description. 
 
 
 
